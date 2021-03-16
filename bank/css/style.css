@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration:none;
+    color: #333;
+}
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+.clfix{
+    clear:both;
+}
+.logo{
+    float: left;
+}
+.nav{
+    float: right;
+}
+.nav>ul>li{
+    display: block;
+    float: left;
+    width:150px;
+    height: 40px;
+    line-height: 40px;
+    background:#000;
+    color: #fff;
+    text-align:center;
+}
+.nav>ul>li:hover{
+    background:#fff;
+    color:#333;
+}
+.sub-menu>ul{
+    float:left;
+}
+.sub-menu>ul>li{
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    display:block;
+    background:#fff;
+    text-align:center;
+}
+.sub-menu>ul>li:hover{
+    background:#333;
+    color:#fff;
+}
+.sub-menu{
+    float:right;
+    display:none;
+    position: absolute;
+    top:50px;
+}
+.slide{
+    margin-top: 50px;
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+}
+.box{
+    width: 135px;
+    height: 135px;
+    margin: 7px 7px 7px;
+    background-color: burlywood;
+}
+.section03{
+    width: 1200px;
+    height: 200px;
+    background-color: antiquewhite;
+    margin-top: 10px;
+}
+.notice>a{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background: #fff;
+    color:coral;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+}
+
+.gallery>a{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: bisque;
+    color:#333;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+}
+.tab-space>div{
+    float: left;
+}
+.tab-space{
+    padding: 10px;
+}
+.notice-text{
+    width:560px;
+    height: 150px;
+    background:#fff;
+    margin: 0 10px;
+    position: absolute;
+    z-index: 3;
+}
+
+.notice-text>ul>li{
+    float:left;
+    padding: 10px 0 5px 5px; 
+}
+.notice-text>ul>a{
+    float: right;
+     padding: 10px 5px 5px 0; 
+}
+.gallery-box{
+     width:560px;
+    height: 150px;
+    background:#fff;
+    margin: 0 10px;
+    position: absolute;
+    bottom:248px;
+    z-index: 1;
+    
+}
+.box-w{
+    display: flex;
+    justify-content: space-between;
+}
+.box2{
+    width: 320px;
+    height: 180px;
+    background: #fff;
+    margin: 10px 0 0 360px;
+}
+.box3{
+    width: 280px;
+    height: 180px;
+    background: #fff;
+    margin:10px 0 0 10px;
+}
+
+.section03>div{
+    float: left;
+}
+footer{
+    width: 1200px;
+    height: 100px;
+    background:#333;
+    color: lightgray;
+    margin-top:10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.copyright>p{
+    color:#fff;
+}
+footer>div{
+    margin: 0 10px;
+}
+
+    

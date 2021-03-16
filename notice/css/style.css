@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration:none;
+}
+
+.content-wrap{
+    width:1200px;
+    margin: 0 auto;
+}
+.clearfix{
+    clear:both;
+}
+.notice{
+    float: left;
+    width: 380px;
+    height:180px;
+    padding:10px;
+}
+.notice_title{
+    display: block;
+    width: 90px;
+    height: 20px;
+    padding: 5px 0;
+    text-align: center;
+    background: coral;
+    color:#fff;
+}
+.notice>div{
+    width: 350px;
+    height: 120px;
+    padding: 15px;
+    background: #fff;
+}
+.content_box{
+    width: 100%;
+    height: 200px;
+    background:red;
+}
+.notice>div>ul>li>a{
+    float: left;
+    font-size:0.9rem;
+    color:#333;
+    line-height:30px;
+}
+.notice>div>ul>li>p{
+    float: right;
+    font-size:0.9rem;
+    color:#333;
+    line-height:30px;
+}
+.notice>div>ul>li:hover>a{
+    font-weight:600;
+    color: #000;
+}
+.gallery{
+    float: left;
+    width:380px;
+    height: 180px;
+    padding: 10px;
+}
+.gallery_title{
+    display: block;
+    width: 90px;
+    height: 20px;
+    padding: 5px 0;
+    text-align: center;
+    background-color: cadetblue;
+    color: #fff;
+}
+.gallery>div{
+    width: 350px;
+    height: 120px;
+    padding:15px;
+    background: #fff;
+}
+.gallery>div>ul{
+    display: flex;
+    justify-content: space-between;
+}
+.gallery>div>ul>li>a>img{
+    width:110px;
+    height: 110px;
+}
+.direct{
+    width:380px;
+    float: left;
+    height: 180px;
+    padding: 10px;
+}
+.direct>a>img{
+    width: 380px;
+    height:180px;
+}
+.popup{
+    width:380px;
+    height: 280px;
+    background-color: #333;
+    position: absolute;
+    top:50%;
+    left: 35%;
+    border: 5px solid #333;
+    display: none;
+        
+    
+}
+.popup-title{
+    color: #fff;
+    width:380px;
+    height: 30px;
+    font-size: 1.3rem;
+    line-height:30px;
+    padding: 10px;
+    
+    
+}
+
+.popup-text{
+    background: #fff;
+    width: 360px;
+    height: 215px;
+    padding: 10px 10px 5px 10px;
+}
+.close-btn{
+    float: right;
+    margin-top: 85px;
+    border:none;
+    width: 50px;
+    height: 25px;
+    background-color: aquamarine;
+    color: blue;
+}
+
+footer{
+    background: #333;
+    height: 100px;
+}
+.logo2>a{
+    float: left;
+    color: aliceblue;
+    font-weight: 700;
+    width: 200px;
+    height: 40px;
+    padding: 40px;
+}
+.copyright{
+    float: left;
+    width:680px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+}
+
+.sns{
+    float: right;
+    widows: 150px;
+    height: 40px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+.sns>a>img{
+    widows: 40px;
+}
