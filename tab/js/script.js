@@ -13,4 +13,24 @@ $(function(){
         $('.galley_title').css('background','coral');
         
     });
-})
+});
+
+//gallery
+
+//$('.family-menu').mouseenter(function(){
+//    $('.family-menu>ul').slideDown();
+//    $('.family-menu>span').text('▲');
+//});
+//$('.family-menu').mouseleave(function(){
+//    $('.family-menu>ul').slideUp();
+//    $('.family-menu>span').text('▼');
+//});
+$('.family-menu').click(function(){
+    if($('.family-menu>ul').css('display')=='none'){
+        $('.family-menu>ul').stop().slideDown();
+        $('.family-menu>span').text('▲');
+    }else{
+         $('.family-menu>ul').stop().slideUp();
+        $('.family-menu>span').text('▼');
+    }
+});

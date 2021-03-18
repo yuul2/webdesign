@@ -178,7 +178,44 @@ footer{
     width:40px;
 }
 
+.family{
+    float: right;
+    width:200px;
+    height:100px;
+}
 
-
-
-
+.family-menu{
+    width:120px;
+    height: 20px;
+    background: #fff;
+    margin:40px auto;
+    cursor:pointer;
+}
+.family-menu>a{
+    font-size: 0.8rem;
+    margin-left:5px;
+    line-height:20px;
+}
+.family-menu>span{
+    float:right;
+    line-height:20px;
+    font-size:0.8rem;
+    margin-right:5px;
+}
+.family-menu>ul{
+    background:#fff;
+    width:118px;
+    padding : 5px 0;
+    border:1px solid #111;
+}
+.family-menu>ul>li>a{
+    font-size;0.8rem;
+    line-height:25px;
+    margin-left:7px;
+}
+.family-menu>ul>li:hover{
+    background-color:beige;   
+}
+.family-menu>ul{
+    display:none;
+}
