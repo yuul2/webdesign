@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    color:#333;
+}
+.clfix{
+    clear: both;
+}
+.container-warp{
+    width:1000px;
+    margin: 0 auto;
+    height: 650px;
+}
+.nav-box{
+    width:220px;
+    height: 650px;
+    background-color: bisque;
+    float:left;
+}
+.content-box{
+    width: 780px;
+    height: 650px;
+    background-color: blueviolet;
+    float: left;
+}
+.logo{
+    text-align: center;
+    margin:10px 0;
+}
+.nav{
+    text-align: center;
+    margin-top:40px;
+}
+.nav>ul>li>a{
+    width:180px;
+    height: 30px;
+    background: beige;
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 auto;
+}
+.submenu>li>a{
+     width:180px;
+    height: 30px;
+    background-color: burlywood;
+    display: block;
+    line-height: 30px;
+    margin: 0 auto;
+}
+.submenu{
+    display: none;
+}
+banner>div>a>img{
+    width: 780px;
+    height: 350px;
+    position: absolute;
+}
+banner>div{
+    width: 780px;
+    height: 350px;
+    position: relative;
+}
+.tab-w{
+    width: 260px;
+    height: 200px;
+    float: left;
+}
+.banner-c>img{
+    width: 260px;
+    height: 200px;
+    float: left;
+}
+.baro>img{
+   width: 260px;
+    height: 200px;
+    float: left;
+}
+.tab>div{
+    float: left;
+}
+.notice{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+}
+.gallery{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+       
+}
+.gallery>p{
+    color: lightgrey; 
+}
+.notice-c{
+    width: 260px;
+    height: 170px;
+    background-color: #fff;
+}
+.notice-c>ul>li>a{
+    float: left;
+    font-size:0.7rem;
+    line-height: 35px;
+}
+.notice-c>ul>li>p{
+    float: right;
+     font-size:0.7rem;
+    line-height: 35px;
+}
+.logo2{
+    float: left;
+    margin: 30px 10px;
+}
+.law>ul>li{
+    float: left;
+    margin: 26px 40px 10px;
+     color: #fff;
+}
+.copy>p{
+    text-align: center;
+    color: #fff;
+}
+.tab-c{
+    position: relative;
+}
+.img-box{
+     width: 260px;
+    height: 170px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.img-box>img{
+    width: 33.33%;
+    float: left;
+    margin-top: 44px;
+}
+.notice-c>ul>li:hover>a{
+    font-weight: 700;
+}
+.modal{
+    width: 450px;
+    height: 460px;
+    background: #fff;
+    border: 1px solid #ff7200;
+    position: absolute;
+    top:50px;
+    right: 385px;
+    display: none;
+}
+.modal>h1{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1.5rem;
+}
+.modal>p{
+    text-align: center;
+    margin: 30px;
+}
+
+.close{
+    border: none;
+    background: #ff7200;
+    width: 100px;
+    height: 50px;
+    font-size: 1.5rem;
+    margin: 0 175px;
+    border-radius: 10px;
+}
