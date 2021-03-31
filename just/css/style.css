@@ -1,0 +1,231 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color:#333;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.clfix{
+    clear:both;
+}
+.logo>a{
+    width: 200px;
+    height: 40px;
+    display: block;
+  text-align: center;
+    line-height: 38px;
+    font-size:2.8rem;
+    font-weight: 900;
+    color:chocolate
+}
+.logo{
+    float: left;
+}
+.nav>ul>li{
+    float: left;
+}
+.nav{
+    float:right;
+}
+.nav>ul>li>a{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    background-color:beige;
+    margin-top:5px;
+}
+.nav>ul>li>a:hover{
+    background-color: aliceblue;
+}
+.sub-menu>ul{
+    float: left;
+}
+.sub-menu{
+    float: right;
+    display: none;
+    position: absolute;
+}
+
+.sub-menu>ul>li>a{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    background-color: lavenderblush;
+}
+.sub-menu>ul>li>a:hover{
+    background-color: papayawhip;
+}
+/*nav*/
+.banner{
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+    font-size: 0;
+}
+.banner>div>img{
+    width: 1200px;
+    height: 300px;
+}
+
+/*배너*/
+.sectionc{
+    width: 1200px;
+    height: 200px;
+    background: #cecece;
+}
+.tab{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+.notice{
+    float: left;
+    display: block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: white;
+}
+.gallery{
+    float: left;
+    display: block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #cecece;
+}
+.title{
+   margin: 0 10px;
+}
+.notice-menu{
+    width: 380px;
+    height: 158px;
+    background-color: white;
+}
+.notice-menu>ul>li>a{
+    float: left;
+    line-height: 40px;
+}
+.notice-menu>ul>li>p{
+    float: right;
+    line-height: 40px;
+}
+.notice-menu>ul>li:hover>a{
+font-weight: 600;
+}
+.gallery-menu{
+    width: 380px;
+    height: 160px;
+    background-color: white;
+    position: absolute;
+    bottom: 307.7px;
+    display: none;
+}
+.imgbox>img{
+    width: 120px;
+    height: 120px;
+     margin:20px 1.45px;
+}
+.banner2>img{
+    margin: 8px 0;
+    width: 380px;
+    height: 180px;
+}
+.banner2{
+    float: left;
+    margin: 0 15px;
+}
+.baro>img{
+    margin: 8px 0;
+    width: 380px;
+    height: 180px;
+}
+footer{
+    width: 1200px;
+    height: 100px;
+    background-color: #d8d8d8;
+    display: flex;
+}
+.logo2{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+.logo2>a{
+    width: 200px;
+    height: 100px;
+    display: block;
+  text-align: center;
+    line-height: 80px;
+    font-size:2.8rem;
+    font-weight: 900;
+    color:chocolate;
+}
+
+.copy{
+    width: 800px;
+    align-content: center;
+    justify-content: center;
+}
+.copy>p{
+   width: 800px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.sns>a{
+    float: left;
+  display: block;
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center
+}
+
+
+
+
+
+.modal{
+    width: 400px;
+    height: 300px;
+    background: #cecece;
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    display: none;
+}
+.title2{
+    width: 380px;
+    height: 60px;
+    background-color:royalblue;
+    margin: 10px 10px 0;
+   
+}
+.title>p{
+    color: aliceblue;
+    line-height: 60px;
+}
+.content{
+    width: 380px;
+    height: 220px;
+    background: white;
+    margin: 0 10px;
+}
+.close{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    
+}
