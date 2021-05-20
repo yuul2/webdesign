@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #333;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.clfix{
+    clear: both;
+}
+.logo>a>img{
+    width: 30px;
+}
+.logo>a{
+    font-size: 2rem;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 600;
+    display: block;
+}
+.logo{
+    margin-top: 20px;
+    float:left;
+}
+.menu>ul>li{
+    float: left;
+}
+.menu>ul>li>a{
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    font-weight: 700;
+}
+.menu>ul>li>a:hover{
+    background-color: navy;
+    color: aliceblue;
+}
+.menu{
+    float: right;
+    margin-top: 20px;
+}
+.sub-m>ul{
+    float: left;
+}
+
+.sub-m>ul>li>a{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    background-color: navy;
+    color: aliceblue;
+}
+.sub-m>ul>li>a:hover{
+    background-color: aliceblue;
+    color: #333;
+}
+.m-box{
+    width: 1200px;
+    height: 120px;
+    background: navy;
+    position: absolute;
+    z-index: 99;
+}
+.sub{
+    display: none;
+    position: relative;
+}
+.sub-m{
+    position: absolute;
+    right: 0px;
+    z-index: 999;
+    float: right;
+}
+.banner{
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.banner>div>img{
+    width: 1200px;
+    height: 300px;
+}
+.banner>div{
+    font-size: 0;
+    float: left;
+    width: 3600px;
+    height: 300px;
+}
+.content-warp{
+    width:1200px;
+    height: 200px;
+    background: lightgray;
+    position: relative;
+    top:300px;
+}
+.noticetit{
+  padding: 10px 0 0 10px;
+}
+.noticetit>a{
+ display: block;
+width: 80px;
+    height: 30px;
+    line-height: 30px;
+    background-color: navy;
+    color: aliceblue;
+    font-weight: 600;
+    text-align: center;
+}
+.notice-c{
+    width: 380px;
+    height: 150px;
+    background: navy;
+    margin-left: 10px;
+}
+.notice-c>ul>li>a{
+    float: left;
+    color: aliceblue;
+    line-height: 30px;
+    margin-left: 10px;
+}
+.notice-c>ul>li>p{
+    float: right;
+    color: aliceblue;
+    line-height: 30px;
+    margin-right: 10px;
+}
+.notice-c>ul>li:hover>a{
+ font-weight: 600;
+}
+.notice{
+    float: left;
+}
+.gallery{
+    float: left;
+}
+.gallery-tit{
+    padding: 10px 0 0 10px;
+}
+.gallery-tit>a{
+     display: block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    background-color: navy;
+    color: aliceblue;
+    font-weight: 600;
+    text-align: center;
+}
+.gallery-c{
+    float: left;
+    width: 380px;
+    height: 150px;
+    background-color: navy;
+    margin-left: 10px;
+}
+.gallery-c>div>img{
+    width: 120px;
+    height: 100px;
+}
+.gallery-c>div{
+    margin: 23px 4px;
+}
+.banner2{
+    float: left;
+    width: 380px;
+    padding: 10px 0 0 10px;
+}
+.banner2>img{
+    width: 400px;
+    height: 180px;
+}
+.footer-w{
+    width: 80%;
+    padding: 15px 0 0 10px;
+}
+footer{
+    display: flex;
+    position: relative;
+    top:300px;
+    width: 1200px;
+    height: 100px;
+    background: lightgray;
+}
+.sitemap>ul>li{
+    float: left;
+    margin: 0 10px;
+}
+.sitemap>ul>li>a{
+    line-height: 30px;
+    height: 30px;
+}
+.copy{
+    margin: 0 10px;
+    line-height: 30px;
+    height: 30px;
+}
+.f-site{
+    width: 150px;
+    height: 30px;
+    background-color: beige;
+    border: none;
+}
+.family{
+    padding: 30px 40px;
+}
